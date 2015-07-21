@@ -10,7 +10,8 @@ libraryDependencies ++= Seq(
   "org.jsoup" % "jsoup" % "1.8.2",
   "de.l3s.boilerpipe" % "boilerpipe" % "1.2.0",
   "xerces" % "xercesImpl" % "2.11.0",
-  "net.sourceforge.nekohtml" % "nekohtml" % "1.9.22"
+  "net.sourceforge.nekohtml" % "nekohtml" % "1.9.22",
+  "org.scalatest" % "scalatest_2.11" % "2.2.4" % "test"
 )
 
 resolvers += "Boilerpipe" at "http://boilerpipe.googlecode.com/svn/repo/"
